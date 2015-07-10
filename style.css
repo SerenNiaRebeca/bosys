@@ -84,7 +84,7 @@ a{
     font-family: 'Playfair Display', serif;
     background-color: #33CCFF;
     padding: 20px;
-    margin-left:-10px;
+    
     position:relative;
 
 }
@@ -94,37 +94,47 @@ a{
    font-size: 14px;
     font-family: 'Playfair Display', serif;
     margin-right:50px;
-    margin-top: 30px;
+    margin-top: 25px;
+}
 
+
+#footer h4 {
+
+  margin-top:25px;
+  margin-left:10px;
+  font-size: 17px;
+  float:left;
+   font-family: 'Playfair Display', serif;
 }
 
 #socialmediabanner {
   display:inline;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:26px;
   z-index: 100;
   position:absolute;
 
 }
 
+
+
 #socialmediabanner .fb:hover {
-  height:85px;
+  height:75px;
   width:auto;
 
 }
 
 #socialmediabanner .linkedin:hover {
-    height:85px;
+    height:75px;
   width:auto;
 }
 
 #socialmediabanner .email:hover {
-  height:85px;
+  height:75px;
   width:auto;
 }
 
 #socialmediabanner .twitter:hover {
-  height:85px;
+  height:75px;
   width:auto;
 }
 
@@ -163,6 +173,7 @@ ul.social-buttons li {
   margin-right: 100px;
   width: 530px;
   margin-bottom:50px;
+   z-index: 100;
 }
 
 .profileright p {
